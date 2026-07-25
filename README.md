@@ -1,8 +1,20 @@
 # Kite Data Engine 🛸
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+
 A lightweight, high-performance declarative configuration and asset storage format designed as a faster, more human-readable alternative to JSON, YAML, and TOML.
 
 Kite allows developers to define configurations, environment variables, and key-value assets using clean dot notation (`kite.KEY`) or dictionary lookup brackets (`kite["KEY WITH SPACES"]`) for identifiers containing spaces or special characters.
+
+---
+
+## 🚀 What's Coming Next? (Roadmap)
+
+> 📅 **September Update Announcement**: In September 2026, Kite will introduce native parser implementations for **10 additional programming languages**! 
+>
+> Planned language support includes: **JavaScript / TypeScript, Go, Rust, C++, C#, Java, PHP, Ruby, Swift, and Kotlin**. Stay tuned!
 
 ---
 
@@ -24,8 +36,8 @@ Kite allows developers to define configurations, environment variables, and key-
 ### 1. General Property Rules
 - Standard variables use **dot notation**: `kite.KEY_NAME = VALUE`
 - Multi-word variables or keys with spaces use **bracket notation**: `kite["KEY WITH SPACES"] = VALUE`
-- Supports all fundamental types: `string`, `number` (int/float), `boolean`, `list`, and `dictionary`.
-- Comments start with `//` or `#`.
+- Supports all fundamental data types out of the box.
+- Supports single-line comments starting with `//` or `#`.
 
 ### 2. Supported Data Types Summary
 
