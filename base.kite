@@ -1,0 +1,25 @@
+// ==========================================
+// GENERAL SYSTEM CONFIGURATION
+// ==========================================
+kite.VERSION = "1.0.0"
+kite.PORT = 8080
+kite.DEBUG_MODE = true
+kite.TIMEOUT = 15.5
+
+// ==========================================
+// ASSETS AND IDENTIFIERS WITH SPACES
+// ==========================================
+kite["MAIN ASSET ID"] = "998877665544"
+kite["HERO BANNER URL"] = "https://cdn.site.com/banner.png"
+kite["PRIMARY COLOR"] = "#0071E3"
+kite["WELCOME MESSAGE"] = "Welcome to the Kite Data Engine!"
+
+// ==========================================
+// COMPLEX DATA STRUCTURES
+// ==========================================
+kite.SERVERS = ["us-east", "sa-east", "eu-central"]
+kite.DATABASE = {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "user": "admin"
+}
